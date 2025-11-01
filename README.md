@@ -2,12 +2,17 @@
 
 # 🎬 IMDB Movie Review Sentiment Analysis
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://movie-review-sentiment-analysis-77.streamlit.app/)
+
 A complete end-to-end machine learning project that classifies IMDB movie reviews as either positive or negative. This project showcases the entire ML pipeline, from data preprocessing and model training to deploying an interactive web application using Streamlit.
 
 ## 🎯 Project Goal
 
 The primary goal of this project was to build a robust sentiment analysis system capable of understanding the sentiment behind movie reviews. This involved handling noisy, real-world text data and building a model that generalizes well to unseen reviews.
 
+## 🌐 Live Demo
+
+Experience the live application here: **[https://movie-review-sentiment-analysis-77.streamlit.app/](https://movie-review-sentiment-analysis-77.streamlit.app/)**
 
 ## 🛠️ Tech Stack
 
@@ -78,8 +83,8 @@ Follow these steps to get a copy of the project up and running on your local mac
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/[YOUR_GITHUB_USERNAME]/imdb-sentiment-analysis.git
-    cd imdb-sentiment-analysis
+    git clone https://github.com/aryan578765/MOVIE-REVIEW-SENTIMENT-ANALYSIS.git
+    cd MOVIE-REVIEW-SENTIMENT-ANALYSIS
     ```
 
 2.  **Create and activate a virtual environment (recommended):**
@@ -109,12 +114,12 @@ The application will open in your web browser, typically at `http://localhost:85
 ## 📂 Project Structure
 
 ```
-imdb-sentiment-analysis/
+MOVIE-REVIEW-SENTIMENT-ANALYSIS/
 ├── app.py                     # Main Streamlit application
 ├── optimized_model.pkl        # Serialized trained model
 ├── tfidf_vectorizer.pkl       # Serialized TF-IDF vectorizer
 ├── requirements.txt           # List of Python dependencies
-├── processed_imdb_reviews.csv # Preprocessed dataset
+├── .gitignore                 # Specifies files for Git to ignore
 ├── README.md                  # This file
 └── (Other generated plots/files)
 ```
@@ -126,5 +131,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## 👨‍💻 Author
 
 **Patel Aryan**
+
+-   GitHub: [aryan578765](https://github.com/aryan578765)
 
 ---
